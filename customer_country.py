@@ -1,6 +1,8 @@
 import csv
 
-infile = csv.reader(open("customers.csv"))
+# infile = csv.reader(open("customers.csv"))
+
+infile = csv.reader(open("customers.csv", "r"))
 
 outfile = open("customer_country.csv", "w")
 
